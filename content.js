@@ -1,0 +1,1 @@
+console.log("Content-Skript läuft auf:", window.location.href);

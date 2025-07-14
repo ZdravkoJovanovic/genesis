@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Basis Extension",
+    "version": "1.0.0",
+    "description": "Basisstruktur für spätere Logik und UI.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Extension öffnen"
+    },
+    "permissions": []
+}
+  

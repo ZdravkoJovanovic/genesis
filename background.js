@@ -1,0 +1,1 @@
+console.log("Background-Skript läuft (service worker).");
