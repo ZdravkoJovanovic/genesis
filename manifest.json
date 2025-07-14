@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Basis Extension",
+    "name": "Genisis",
     "version": "1.0.0",
-    "description": "Basisstruktur für spätere Logik und UI.",
+    "description": "Genesis AI Visualizor",
     "background": {
       "service_worker": "background.js"
     },
